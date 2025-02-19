@@ -1,0 +1,42 @@
+.bg-container{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.bg-container img{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+.navbar{
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    padding: 10px;
+    font-weight: 900;
+    
+}
+.navbar-brand{
+    color: rgb(9, 64, 22);
+}
+.upload-voice-form{
+    z-index: 2;
+    position: fixed;
+    top: 20%;
+    left: 35%; 
+}
+.card-body{
+    padding: 30px;
+    max-height: 30rem;
+    overflow-y: scroll;
+}
+.card-title{
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(154, 154, 154);
+}
+.card-text{
+    text-align: justify;
+}
